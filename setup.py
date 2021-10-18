@@ -12,8 +12,8 @@ setup(
     ],
     entry_points= {
         'console_scripts': [
-            'calidad = linters.calidad:main',
-            'calidad-sin-docs = linters.calidad_sin_docs:main'
+            'pylints = linters.pylints:main',
+            'pylintsnodocs = linters.pylintsnodocs:main'
         ]
     }
 )
