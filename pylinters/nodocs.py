@@ -2,10 +2,11 @@ from sys import argv
 from colorama import Fore, init
 import os
 
+
 def main():
 
     init()
-    
+
     print(Fore.CYAN, end="")
     print("Flake8")
     print(Fore.RESET, end="")
@@ -21,9 +22,6 @@ def main():
     print(Fore.RESET, end="")
     os.system('mypy --ignore-missing-imports ' + argv[1])
 
+
 if __name__ == '__main__':
     exit(main())
-
-
-
- 
