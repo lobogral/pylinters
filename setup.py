@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="linters",
+    name="pylinters",
     version="0.1",
     packages=find_packages(),
     install_requires = [
@@ -12,8 +12,8 @@ setup(
     ],
     entry_points= {
         'console_scripts': [
-            'pylints = linters.pylints:main',
-            'pylintsnodocs = linters.pylintsnodocs:main'
+            'pylinters = pylinters.estandar:main',
+            'pylintersnodocs = pylinters.nodocs:main'
         ]
     }
 )
