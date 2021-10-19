@@ -8,7 +8,8 @@ setup(
         'flake8',
         'pylint',
         'pydocstyle',
-        'mypy'
+        'mypy',
+        'colorama'
     ],
     entry_points= {
         'console_scripts': [
