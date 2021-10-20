@@ -13,8 +13,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'pylinters = pylinters.estandar:main',
-            'pylintersnodocs = pylinters.nodocs:main'
+            'pylinters = pylinters.main:main'
         ]
     }
 )
