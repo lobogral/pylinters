@@ -1,3 +1,4 @@
+"""Utiliza varios linters para analizar codigo."""
 import sys
 import os
 from colorama import Fore
@@ -5,11 +6,11 @@ from colorama import init
 
 
 def main():
-
+    """Metodo principal."""
     init()
 
     print(Fore.CYAN, end="")
-    print("Flake8")
+    print("flake8")
     print(Fore.RESET, end="")
     os.system('flake8 ' + sys.argv[-1])
 
