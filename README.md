@@ -43,3 +43,4 @@ Existen 2 formas de ejecutar el código:
 * https://medium.com/@gonzaloandres.diaz/escribiendo-codigo-de-alta-calidad-en-python-parte-2-linters-64ffd8d2df91
 * https://realpython.com/python-pep8/
 * https://realpython.com/python-code-quality/
+* https://stackoverflow.com/questions/42123798/is-there-any-way-to-lint-a-python-file-to-check-for-numpy-documentation-style-ad
