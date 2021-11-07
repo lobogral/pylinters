@@ -37,3 +37,9 @@ Existen 2 formas de ejecutar el código:
 2. No documentación, útil para revisar códigos simples, utiliza flake8, pylint, mypy.
 
         $ pylinters --no-docs codigo.py
+
+## Referencias
+
+* https://medium.com/@gonzaloandres.diaz/escribiendo-codigo-de-alta-calidad-en-python-parte-2-linters-64ffd8d2df91
+* https://realpython.com/python-pep8/
+* https://realpython.com/python-code-quality/
