@@ -1,14 +1,14 @@
 # pylinters
 
-Uso de distintos linters para mejorar la calidad del código en python [1].
+Uso de distintos linters para mejorar la calidad del código en python[^fn1].
 
 Este paquete está diseñado para ejecutar distintos linters con características
-específicas [2, 3], los cuales son:
+específicas[^fn2][^fn3], los cuales son:
 
 1. flake8.
 2. pylint.
-3. pydocstyle (Se utiliza la convención numpy [4]).
-4. mypy (Ignora librerías perdidas [5]).
+3. pydocstyle (Se utiliza la convención numpy[^fn4]).
+4. mypy (Ignora librerías perdidas[^fn5]).
 
 ## Instalación
 
@@ -38,13 +38,13 @@ Existen 2 formas de ejecutar el código:
 
         $ pylinters --no-docs codigo.py
 
-## Referencias
-[1] https://realpython.com/python-pep8/
 
-[2] https://realpython.com/python-code-quality/
+[^fn1]: https://realpython.com/python-pep8/
 
-[3] https://medium.com/@gonzaloandres.diaz/escribiendo-codigo-de-alta-calidad-en-python-parte-2-linters-64ffd8d2df91
+[^fn2]: https://realpython.com/python-code-quality/
 
-[4] https://stackoverflow.com/questions/42123798/is-there-any-way-to-lint-a-python-file-to-check-for-numpy-documentation-style-ad
+[^fn3]: https://medium.com/@gonzaloandres.diaz/escribiendo-codigo-de-alta-calidad-en-python-parte-2-linters-64ffd8d2df91
 
-[5] https://stackoverflow.com/questions/57785471/why-does-mypy-think-library-imports-are-missing
+[^fn4]: https://stackoverflow.com/questions/42123798/is-there-any-way-to-lint-a-python-file-to-check-for-numpy-documentation-style-ad
+
+[^fn5]: https://stackoverflow.com/questions/57785471/why-does-mypy-think-library-imports-are-missing
